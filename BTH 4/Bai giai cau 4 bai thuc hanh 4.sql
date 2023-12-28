@@ -7,12 +7,12 @@ go
 CREATE DATABASE CSDL_2
 go
 
--- chuyển dbowwner cho login khác
+-- chuyển dbowner cho login khác
 use CSDL_2
 GO
 sp_changedbowner 'D51\Admin'
 
--- chuyển dbowwner cho login khác
+-- chuyển dbowner cho login khác
 use CSDL_2
 GO
 sp_changedbowner 'sa'
